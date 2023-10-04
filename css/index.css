@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Winter;
+    src: url(Winter\ Sunday.otf);
+}
+
+* {
+    scroll-behavior:smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color:; */
+}
+
+header {
+    background-color:rgb(12, 60, 96);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+#header-logo {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    margin: 0px 0px 0px -380px;
+
+}
+#header-title {
+    font-family: Winter;
+    padding: 1px;
+    margin:20px 0;
+    /* padding-left: 302px; */
+}
+
+.sub-title {
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+}
+
+/* Estilos de secciones */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+/* Estilos de pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:rgb(12, 60, 96);
+    color: #fff;
+}
